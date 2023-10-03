@@ -1,0 +1,34 @@
+
+.circular{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular::before{
+    content: '';
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #6d784e
+}
+
+.value{
+    position: relative;
+    font-size:40px ;
+    font-weight: 600;
+    color: #f8ffde;
+}
+
+.button{
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
